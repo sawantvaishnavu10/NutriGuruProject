@@ -1,0 +1,265 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div-body-c{
+    background-image: url("../Images/HomeBackGround.jpg");
+    background-size: cover; /* Ensures the image covers the whole container */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100%; /* Sets the height of the container to 100% of the viewport height */
+    width: 100%; 
+}
+
+/* Title */
+.title-header-c {
+    text-align: left; 
+    padding-top: 15px;
+    margin-left: 5px;
+  }
+
+  .title-header-c h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #00070b; 
+    margin-top: -8px;
+  }
+.sub-c{
+    font-size: 12px;
+}
+
+/* Navbar */
+.custom-navbar-c {
+   background-color: #f9d9d579; /* Replace with your desired background color
+    margin-top: 5px; /* Add margin to create some space below the welcome header */
+    color:black; 
+    font-weight: bold;
+    position: relative;
+    /* margin: 8px;Ensure no margin affects the width */
+    border: 1px solid;
+    margin-top: -23px;  
+    /* border-radius: 28px; */
+    /* border-collapse: collapse; */
+    box-shadow: 0 0 10px rgba(18, 9, 0, 0.76);
+
+}
+  
+  .custom-navbar-c .navbar-nav .nav-link-c {
+    padding: 10px;
+    padding-left : 10px;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-bottom: 15px;
+   /* background-color: #abcecf; /* Replace with your desired background color */
+    color: #020f11; /* Replace with your desired color for nav links */
+  }
+  
+  .custom-navbar .navbar-brand {
+   /* background-color: #abcecf; /* Replace with your desired background color */
+    color: #011112; /* Replace with your desired color for brand */
+  }
+  
+ 
+  
+  .nav-link-c {
+    /* margin-top: 20px; */
+    margin-left: 30px; /* Adjust spacing between nav items if needed */
+}
+   
+  .home-page-footer-c {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid; */
+    bottom: 0;
+    font-weight: 4px;
+    border-radius: 6px;
+    background-color: #f9d9d579; /* Desired background color */
+    padding: 5px; /* Optional: Add padding for spacing */
+    box-shadow: 0 0 10px rgba(18, 9, 0, 0.76);
+  }
+  
+  .home-page-footer-c p {
+    text-align: center;
+    font-weight: 42px;
+    /* font-weight: bold; */
+    margin: 10px; /* Ensure no margin affects the width */
+    color: #041018; /* Desired text color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .byb-c {
+    text-align: right;
+    background-image: url("../Images/Recepie.jpg");
+    background-size: cover; /* Ensures the image covers the whole container */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 120vh; 
+    width: 100%;  
+    display: flex; /* Add this to center the text vertically and horizontally */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+  }
+  
+  .byb-c h3 {
+    background-color: rgb(253, 225, 225);
+    width: 100%;
+    border: 2px solid rgb(238, 228, 228);
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    opacity: 0.8;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+    color: black; /* Change the text color to black for better visibility */
+    margin: 1 auto; /* Add this to center the text horizontally */
+  }
+  .nutri-info-c {
+    margin-top: -15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /*Grid having 2 fraction of equal space*/ 
+    height: 400px; /* adjust the height to your needs */
+  }
+  
+  .nutri-info-c p {
+    grid-column: 1;/*1st col*/
+    text-align: left;
+    color: black;
+    /* font-weight: bold; */
+    padding-left: 20px;
+    padding-right: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f3b68b;
+    opacity: 0.6y;
+    width: 100%;
+    height: 321px;
+    font-size: 19px;
+    word-spacing: 2px;
+    line-height: 35px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgba(18, 9, 0, 0.76);
+  }
+  
+  .nutri-info-c::after {
+    grid-column: 2;/*2nd col*/
+    background-image: url('../Images/Bowl.jpg');
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(18, 9, 0, 0.76);
+    background-position: center;
+    height: 80%;
+    width: 100%;
+    content: "";
+  }
+  .tagline-c {
+    margin-top: -78px;
+    width: 100%;
+    padding-top: 180px;
+    height: 350px;
+    background-image: url("../Images/Home.jpeg");
+    background-size: cover; /* Ensures the image covers the whole container */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-repeat: no-repeat;
+    position: relative; /* Make sure the element is positioned correctly */
+    display: flex; /* Use flexbox to center the content */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text horizontally */
+    color: black; /* Text color */
+  }
+  
+  .tagline-c p {
+    font-size: 30px; /* Adjust font size as needed */
+    background-color: #e38918;
+    margin: 0 0 20px 0; /* Remove default paragraph margin, add bottom margin */
+    opacity: 0.7;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(18, 9, 0, 0.76);
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(9, 111, 0, 0.5); /* Add text shadow for better readability */
+  }
+  .tagline-book-c p{
+    margin-top: -150px;
+  }
+  .join-now-btn-c {
+    background-color: #e38918;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .byb-consult-us-btn-c{
+    margin: 10px;
+    border: 40px;
+    color: black;
+    background-color: #e38918;
+    opacity: 0.7;
+    padding: 15px;
+    border-radius: 50px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    box-shadow: 0 0 10px rgba(18, 9, 0, 0.76);
+    font-weight: bold;
+  }
+  .byb-consult-us-btn-c:hover{
+        border: 1px solid rgb(0, 0, 0);
+  }
+
+  .healthy-quote1-c p{
+
+    margin-top: 2px;
+    margin-bottom: 15px;
+    width: 100%;
+   padding: 40px;
+   padding-top: 50px;
+    background-color: #f9f5f2;
+    opacity: 0.6;
+    font-size: 22px;
+    color: black;
+    text-shadow: #0c6aa0;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(18, 9, 0, 0.76);
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  .join-now-c{
+    background-color: #f9f5f2;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 60px;
+  }
+  .join-now-c p{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .join-now-c h3{
+    font-size: 20px;
+  }
+
+  .join-now-btn-c{
+    margin: 20px;
+    border: 40px;
+    color: black;
+    background-color: #fadfd8;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 50px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    box-shadow: 0 0 10px rgba(18, 9, 0, 0.76);
+    font-weight: bold;
+  }
+
+  .join-now-btn-c:hover{
+    border: 1px solid rgb(0, 0, 0);
+}

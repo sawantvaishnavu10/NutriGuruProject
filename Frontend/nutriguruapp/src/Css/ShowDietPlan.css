@@ -1,0 +1,45 @@
+.myPlan {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 100vh; 
+    padding: 20px;
+    background-image: url('../Images/ShowDietPlan.jpg');
+    background-size: cover;
+    background-position: center;  }
+  
+  .showMyPlan {
+    display: flex;
+    flex-direction: column; 
+    /* align-items: flex-start; */
+    /* justify-content: center;  */
+    border: px solid #ddd; 
+    border-radius: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 0 60px rgb(0, 0, 0); 
+    padding: 20px; 
+    max-width: 500px; 
+    background-color: #ebe9e9;
+    opacity: 0.7;
+    width: 100%; 
+    margin-left: -500px;
+    margin-top: -80px;
+  }
+  
+.showMyPlan h2 {
+    margin-bottom: 20px; 
+    text-align: center;
+    width: 100%;
+  }
+  
+.showMyPlan  p {
+    text-align: left; 
+    margin: 10px 0;
+    width: 100%; 
+  }
+  
+.showMyPlan p b {
+    color: #000000; 
+  }
+  

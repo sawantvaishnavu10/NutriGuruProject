@@ -1,0 +1,98 @@
+
+/* General Styles */
+.allAppointments {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    width: 100%;  /* Full viewport width */
+    background-image: url("../Images/appointments.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.allAppointments-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.allAppointments-appointment-Table {
+    width: 80%; /* Adjust width as needed */
+    max-width: 1000px; /* Optional max width */
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.allAppointments-appointment-Table  tbody{
+    /* border: 1px solid #1c0202; */
+    padding: 8px;
+    text-align: left;
+    border-radius: 12px;
+}
+
+.allAppointments-appointment-Table th {
+    /* border: 1px solid #1c0202; */
+    border-radius: 14px;
+    padding: 8px;
+    opacity: 0.9;
+    background-image: url("../Images/Common.jfif");
+    color: black;
+    box-shadow: 0 0 970px rgba(248, 248, 248, 0.7);
+}
+
+
+
+/* Button Styles */
+.allAppointments-add-diet-plan {
+    background-color: #118194; /* Blue background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.addbtnhead{
+    width: 200px;
+    align-self: center;
+    justify-content: center;
+}
+
+.allAppointments-log-out{
+    width: 100px;
+    margin-left: 910px;
+    border-radius: 14px;
+    background-color: #4a9e95;
+    margin-top: -120px;
+}
+/* Logout Button Styles */
+.addbtnhead-log-out {
+    
+    background-color: #30a2a0; /* Teal background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width:100px ;
+    position: absolute; /* Position absolute to move it to the right */
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+}
+
+.addbtnhead-log-out:hover {
+    background-color: #4a9e95; /* Darker teal on hover */
+}

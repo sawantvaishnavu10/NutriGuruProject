@@ -1,0 +1,91 @@
+.about-background-c {
+    background-image: url('../Images/AboutUs.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-container-c {
+    /* background: rgba(255, 255, 255, 0.8);  */
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow:  0 0 80px rgba(0, 0, 0, 0.968);
+    max-width: 800px; /* Limit the width of the content */
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 350px;
+    transform: translateY(-40px); /* Move up by 20px */
+    margin-top: 85px;
+    margin-left: 12px;
+}
+
+.py-3-c {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.about-text-c {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.about-text-muted-c {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.about-ul-c {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.about-li-c {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+
+
+
+.py-3-c {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.about-text-c {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.about-text-muted-c {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.about-ul-c {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.about-li-c {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
